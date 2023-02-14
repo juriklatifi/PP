@@ -1,0 +1,45 @@
+.Lagjett{
+    width:100%;
+    height:80px;
+    background:#006b9c;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14pt;
+
+}
+.djathtas{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    border: 1px solid black;
+    flex-direction: column;
+    
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 50%;
+  }
+  th {
+    height: 30px;
+    text-align:left;
+      background-color: #09232a;
+      color: white;
+    
+  }
+  td {
+    text-align: center;
+    height: 10px;
+    vertical-align: bottom;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  tr{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+ 

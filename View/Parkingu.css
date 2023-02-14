@@ -1,0 +1,793 @@
+header{
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap; 
+	align-items: center;
+	border-color: red;
+	background: white;
+
+
+
+}
+header ul{
+	display: flex;
+	flex-direction: row;
+	width: 22%;
+	justify-content: space-evenly;
+	list-style: none;
+	margin-right: 60px;
+	align-content: center;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+header ul li{
+	border-right: 2px solid #0d519e;
+	width: 25%;
+}
+header .logo img{
+	align-items: center;
+	width: 65px;
+	height: 45px;
+	margin-left: 60px;
+
+}
+header ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+
+
+ul li a:hover{
+	border-bottom: 2px solid red;
+}
+ul li a:active{
+	border-bottom: 3px solid red;
+}
+
+
+
+main{
+	
+ 	min-height: 100px;
+
+
+}
+
+
+
+.slideshow {
+	height: 450px;
+	width: 100%;
+	background: url(Img/SlideShow.jpg) no-repeat;
+	background-size: 100%;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+
+}
+.lagjet{
+	display: flex;
+	width:200px;
+	height:50px;
+	border:solid 3px blue;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.lagjet a{
+	color: black;
+	background-color: white;
+}
+.slidelagjet{
+	display: flex;
+	width: 100%;
+	height:350px;
+	background: url(Img/SlideShow.jpg) no-repeat;
+	background-size: 100% ;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.slidelagjet h1{
+	background: white;
+	border: 2px solid blue;
+	font-size: 18pt;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+	
+}
+.tabela{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:auto;
+	height: auto;
+	padding:10px;
+}
+
+.Tab{
+    border: 1px black solid;
+    border-spacing: 1px 2px;
+    border-collapse: separate;
+}
+.Tabel{
+    background-color: rgb(202, 199, 199);
+    border: 1px black solid;
+}
+.Tabel1{
+    background-color: #17529f;
+    color: white;
+}
+#Hapsira{
+    width: 20px;
+    background-color: #17529f;
+}
+
+
+
+
+
+
+.pg1{
+	width: 100%;
+	height: 500px;
+	background: #f1f1f1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.pg2{
+	width: 90%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+
+}
+
+.nocash{
+	width: 23%;
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	margin-left: 35px;
+	border-right: 5px solid #17529f;
+	border-spacing: 30px;
+}
+.nocash img{
+	width: 190px;
+	height: 190px;
+}
+.tesksti1 {
+	display: flex;
+	justify-content: center;
+	width: 190px;
+	align-items: center;
+	height: 40%;
+
+}
+.tesksti1 h2{
+	margin-top: 30px;
+	font-family: 'Signika', sans-serif;
+	font-size: 21pt;
+	color: #17529f;
+
+}
+
+
+.clock{
+	width: 23%;
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	margin-left: 35px;
+	border-right: 5px solid #17529f;
+	border-spacing: 30px;
+
+}
+.clock img{
+	width: 190px;
+	height: 190px;
+}
+
+.mengene{
+	width: 20%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+
+}
+.mengene img{
+	width: 190px;
+	height: 190px;
+}
+
+
+.Harta{
+	background: url("Img/PrishtinaMap.png");
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.D1{
+	width: 50%;
+	height: 600px;
+	display: flex;
+	background: rgba(23, 82, 159, 0.66);
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.D1 h1{
+	color: white;
+	font-family: 'Signika', sans-serif;
+
+}
+.D2{
+	width: 50%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(129, 129, 129, 0.5);
+
+}
+.Kontakti {
+	width: 500px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.NaKontaktoni{
+	width: 100%;
+	height: 40px;
+	position: relative;
+	background: #17529f;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.NaKontaktoni p{
+	font-size: 14pt;
+	font-family: 'Signika', sans-serif;
+	left: 10px;
+	color: white;
+	position: absolute;
+}
+
+
+.tedhenat {
+	width: 100%;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+#emri{
+	width: 45%;
+	height: 30px;
+}
+
+#emaili1{
+	width: 100%;
+	height:30px;
+}
+
+#mbiemri{
+	width: 45%;
+	height:30px;
+	display: flex;
+
+}
+
+
+.subjekti{
+	width: 100%;
+	height: 30px;
+
+}
+.kerkesajuaj {
+	width: 100%;
+	height: 100px;
+
+}
+
+
+.D1 .P1 .P2 {
+	width: 600px;
+	height: 200px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.ButoniH{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+#dergo {
+	background: #17529f;
+	color: white;
+	width: 80px;
+	height: 35px;
+	text-align: center;
+	font-size: 14pt;
+	border-radius: 3px;
+}
+
+footer{
+	width: 100%;
+	display: flex;
+	background: #000000;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+
+
+
+}
+.footer1{
+	width: 80%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+.footermajtas{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 450px;
+
+	justify-content: space-between;
+}
+.rrethnesh h1{
+	color:white;
+	font-family: 'Signika', sans-serif;
+}
+.rrethnesh p{
+	color:white;
+	margin-bottom: 100px;
+	font-family: 'Signika', sans-serif;
+	font-size: 14pt;
+
+
+}
+.copyright h2{
+	color: white;
+	font-family: 'Signika', sans-serif;
+	font-size: 10pt;
+}
+.rrethnesh {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height:90%;
+	justify-content: center;
+}
+.copyright {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 10%;
+
+}
+.footerdjathtas{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 450px;
+	justify-content: space-between;
+
+}
+.logoo{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 110px;
+	justify-content: flex-end;
+}
+.logoo img{
+	margin-top: 110px;
+	width: 220px;
+	height: 110px;
+
+}
+.MenuFooter{
+	display: flex;
+	width: 100%;
+	height: 150px;
+	flex-direction: row;
+	color: white;
+	justify-content: flex-end;
+
+}
+.MenuFooter ul{
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Signika', sans-serif;
+	font-size: 12pt;
+
+
+
+}
+
+.MenuFooter ul li{
+	padding: 10px;
+
+
+}
+
+.containerH{
+	width: 80%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+
+/*RESPONSIVE*/
+.main_nav{
+	display: flex;
+	width: 50%;
+	float: right;
+	margin-right: 2%;
+	justify-content: space-between;
+	list-style: none;
+	
+  }
+  .main_nav li:hover{
+	color: #0d519e;
+  }
+  
+  .main_nav li{
+	display: inline;
+	color: #0d519e;
+  }
+  .main_nav li a{
+	color: #0d519e;
+  }
+  
+
+  .navbar_toggle {
+	  margin: 1%;
+	font-size: 30px;
+	color: #0d519e;
+	background: transparent;
+	border-color: transparent;
+	transition: all 0.3s linear;
+	cursor: pointer;
+	display: none;
+  }
+
+@media only screen and (max-width:992px){
+
+	header {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		justify-content: space-between;
+		background: white;
+		width: 100%;
+		height: 80px;
+	}
+
+	.logo {
+		display: flex;
+		width: 80px;
+		height: 40px;
+		margin-top: 15px;
+	}
+	.logo img {
+		width: 90px;
+	}
+
+	
+	  .main_nav{
+		display: none;
+		color: white;
+		
+		
+	  }
+
+	  .navbar_toggle{
+		  display: block;
+	  }
+
+	  .navbar_toggle {
+		margin-left: 90%;
+		
+		font-size: 30px;
+		color: #0d519e;
+		background: transparent;
+		border-color: transparent;
+		transition: all 0.3s linear;
+		cursor: pointer;
+		display: block;
+		position: absolute;
+	  }
+
+	
+	  .show_nav{
+
+		display: flex;
+		width: 100vw;
+		height: 100vh;
+		flex-direction: column;
+		justify-content: flex-start;
+		z-index: 1;
+		background-color: white;
+		 margin-top: 20px;
+
+	  }
+	
+	  .main_nav li{
+		width: 100%;
+		height: 50px;
+		font-size: 25px;
+		justify-content: center;
+		text-align: center;
+		padding: 0%;
+		border-right: none;
+	  }
+
+	  /*FOTOT RESPONSIVE*/
+
+	  
+.pg1{
+	width: 100%;
+	height: 1200px;
+	background: #f1f1f1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.pg2{
+	width: 100%;
+	height: 650px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+
+}
+
+.nocash{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	margin-left: none;
+	border-bottom: 5px solid #17529f;
+	border-spacing: 30px;
+	align-items: center;
+}
+.nocash img{
+	width: 150px;
+	height: 150px;
+}
+.tesksti1 {
+	display: flex;
+	justify-content: center;
+	width: 190px;
+	align-items: center;
+	height: 30%;
+
+}
+.tesksti1 h2{
+	margin-top: 30px;
+	font-family: 'Signika', sans-serif;
+	font-size: 21pt;
+	color: #17529f;
+
+}
+
+.clock{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	padding: none;
+	margin-left: none;
+	border-bottom: 5px solid #17529f;
+	border-spacing: 30px;
+	align-items: center;
+
+}
+.clock img{
+	width: 150px;
+	height: 150px;
+}
+
+.mengene{
+	width: 90%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	align-items: center;
+
+}
+.mengene img{
+	width: 150px;
+	height: 150px;
+}
+
+	  /*NA KONTAKTONI RESPONSIVE[CONTACT US]*/
+	  .Harta{
+		background: url("Img/PrishtinaMap.png");
+		width: 100%;
+		height: 600px;
+		display: flex;
+		flex-direction: row;
+	}
+	  .D1{
+		width: 50%;
+		height: 600px;
+		display: none;
+		background: rgba(23, 82, 159, 0.66);
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	
+	.D1 h1{
+		color: white;
+		font-family: 'Signika', sans-serif;
+	
+	}
+
+
+.D2{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(129, 129, 129, 0.5);
+
+}
+.Kontakti {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.NaKontaktoni{
+	width: 100%;
+	height: 40px;
+	position: relative;
+	background: #17529f;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.NaKontaktoni p{
+	font-size: 14pt;
+	font-family: 'Signika', sans-serif;
+	left: 10px;
+	color: white;
+	position: absolute;
+}
+
+
+.tedhenat {
+	width: 100%;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+#emri{
+	width: 45%;
+	height: 30px;
+}
+
+#emaili1{
+	width: 100%;
+	height:30px;
+}
+
+#mbiemri{
+	width: 45%;
+	height:30px;
+	display: flex;
+
+}
+
+
+.subjekti{
+	width: 100%;
+	height: 30px;
+
+}
+.kerkesajuaj {
+	width: 100%;
+	height: 100px;
+
+}
+
+
+.D1 .P1 .P2 {
+	width: 600px;
+	height: 200px;
+	border: 1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.ButoniH{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+#dergo {
+	background: #17529f;
+	color: white;
+	width: 80px;
+	height: 35px;
+	text-align: center;
+	font-size: 14pt;
+	border-radius: 3px;
+}
+	 
+
+
+
+} 
+	
+
+
+
+  
